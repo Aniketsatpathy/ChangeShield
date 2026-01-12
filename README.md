@@ -50,7 +50,7 @@ System returns to last known stable version
 
 Deploy v2
    ↓
-Health Check ❌ ❌ ❌
+Health Check X X X X X
    ↓
 Failure Threshold Reached
    ↓
