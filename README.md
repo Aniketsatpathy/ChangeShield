@@ -4,7 +4,7 @@ ChangeShield is an SRE-focused change management system that enforces safe produ
 
 This project demonstrates how SREs prevent incidents at the moment of change, rather than detecting them after users are impacted.
 
-🧠 Why Change Safety Matters
+@ Why Change Safety Matters
 Industry data and real-world experience show that:
 Most production outages are caused by unsafe deployments or configuration changes
 Manual rollbacks increase Mean Time To Recovery (MTTR)
@@ -34,7 +34,7 @@ Rollback-first design
 Deterministic decision-making
 Fail fast, recover faster
 
-🔁 Failure Flow (Critical SRE Section)
+@ Failure Flow (Critical SRE Section)
 
 Normal Flow (Successful Change)
 New version is deployed
@@ -59,7 +59,7 @@ Rollback to v1
 System Stability Restored
 
 
-🛠️ Tech Stack
+@ Tech Stack
 | Layer          | Technology     | Purpose                      |
 | -------------- | -------------- | ---------------------------- |
 | Controller     | Python         | Change orchestration logic   |
@@ -69,7 +69,7 @@ System Stability Restored
 | CI/CD          | GitHub Actions | Automated change execution   |
 
 
-▶️ How to Run Locally
+@ How to Run Locally
 docker-compose up --build
 
 Expected behavior:
@@ -78,7 +78,7 @@ ChangeShield will detect failures
 Rollback to v1 happens automatically
 
 
-📈 What This Project Demonstrates
+@ What This Project Demonstrates
 SRE change management principles
 Automated rollback systems
 Failure-first design
