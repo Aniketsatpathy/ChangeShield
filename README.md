@@ -1,2 +1,3 @@
-# ChangeShield
-A production-grade SRE system that controls, validates, and safely rolls back production changes using reliability policies and automated enforcement.
+# ChangeShield – Production Change Safety Controller
+
+GitHub-ready SRE project.

@@ -1,0 +1,6 @@
+canary:
+  failure_threshold: 3
+  check_interval_seconds: 5
+  max_checks: 5
+rollback:
+  enabled: true
